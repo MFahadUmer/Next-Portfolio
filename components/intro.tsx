@@ -1,7 +1,12 @@
 'use client';
-import Image from 'next/image';
 import React from 'react';
+import Image from 'next/image';
+import Link from 'next/link';
 import { motion } from 'framer-motion';
+import { BsArrowRight } from 'react-icons/bs';
+import { BsDownload } from 'react-icons/bs';
+import { BsLinkedin } from 'react-icons/bs';
+import { FaGithubSquare } from 'react-icons/fa';
 
 export default function Intro() {
   return (
@@ -54,6 +59,42 @@ export default function Intro() {
         &nbsp;
         <span className="underline">React (Next.js) & Ruby on Rails</span>.
       </motion.p>
+      <motion.div
+        className="flex flex-col sm:flex-row items-center justify-center gap-2 px-4 text-lg font-medium"
+        initial={{ opacity: 0, y: 100 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{
+          delay: 0.1,
+        }}
+      >
+        <Link
+          href="#contact"
+          className="group bg-gray-900 text-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 hover:bg-gray-950 active:scale-105 transition"
+        >
+          Contact me here
+          <BsArrowRight className="opacity-70 group-hover:translate-x-2 transition" />
+        </Link>
+        <a
+          href="/Muhammad-Fahad-Resume.pdf"
+          className="cursor-pointer group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110  active:scale-105 transition border border-black/10"
+          download
+        >
+          Download Resume
+          <BsDownload className="opacity-60 group-hover:translate-y-1 transition" />
+        </a>
+        <a
+          href="https://www.linkedin.com/in/muhammad-fahad-umer/"
+          className="bg-white p-4 text-gray-700 flex items-center gap-2 rounded-full outline-none focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950  active:scale-105 transition border border-black/10"
+        >
+          <BsLinkedin />
+        </a>
+        <a
+          href="https://github.com/MFahadUmer"
+          className="bg-white p-4 text-gray-700 flex items-center gap-2 rounded-full outline-none focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950  active:scale-105 transition border border-black/10"
+        >
+          <FaGithubSquare />
+        </a>
+      </motion.div>
     </section>
   );
 }
