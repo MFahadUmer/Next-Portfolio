@@ -12,13 +12,13 @@ export default function Projects() {
     threshold: 0.5,
   });
 
-  const { setActiveSection } = useActiveSectionContext();
+  const { setActiveSection, timeOfLastClick } = useActiveSectionContext();
 
   useEffect(() => {
-    if (inView) {
+    if (inView && Date.now() - timeOfLastClick > 1000) {
       setActiveSection('Projects');
     }
-  }, [inView, setActiveSection]);
+  }, [inView, setActiveSection, timeOfLastClick]);
   return (
     <section className="scroll-mt-28" id="projects" ref={ref}>
       <SectionHeading>Projects</SectionHeading>
