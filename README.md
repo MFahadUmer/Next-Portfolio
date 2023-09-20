@@ -1,254 +1,72 @@
-<a name="readme-top"></a>
+# Next.js Portfolio [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/MFahadUmer/todolist)
 
-<!--
-HOW TO USE:
-This is an example of how you may give instructions on setting up your project locally.
+[![License](https://img.shields.io/badge/License-MIT-green.svg)]()
 
-Modify this file to match your project and remove sections that don't apply.
+[![License](https://img.shields.io/badge/License-MIT-green.svg)]()
+![GitHub followers](https://img.shields.io/github/followers/MFahadUmer?label=mfahadumer&style=social)
+![Twitter URL](https://img.shields.io/twitter/follow/engfahadumer?label=Follow&style=social)
 
-REQUIRED SECTIONS:
-- Table of Contents
-- About the Project
-  - Built With
-  - Live Demo
-- Getting Started
-- Authors
-- Future Features
-- Contributing
-- Show your support
-- Acknowledgements
-- License
+> Muhammad Fahad Umer's Portfolio.
 
-OPTIONAL SECTIONS:
-- FAQ
+## Description
 
-After you're finished please remove all the comments and instructions!
--->
+This project is for my portfolio. Where I implemented different skills.
 
-<div align="center">
-  <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
-  <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
-  <br/>
+## Live version
 
-  <h3><b>Microverse README Template</b></h3>
+Heres a live <a href="#">link</a>
 
-</div>
+## Features
 
-<!-- TABLE OF CONTENTS -->
+In this project, the following features were done;
 
-# 📗 Table of Contents
+### Functionalities added
 
-- [📖 About the Project](#about-project)
-  - [🛠 Built With](#built-with)
-    - [Tech Stack](#tech-stack)
-    - [Key Features](#key-features)
-  - [🚀 Live Demo](#live-demo)
-- [💻 Getting Started](#getting-started)
-  - [Setup](#setup)
-  - [Prerequisites](#prerequisites)
-  - [Install](#install)
-  - [Usage](#usage)
-  - [Run tests](#run-tests)
-  - [Deployment](#triangular_flag_on_post-deployment)
-- [👥 Authors](#authors)
-- [🔭 Future Features](#future-features)
-- [🤝 Contributing](#contributing)
-- [⭐️ Show your support](#support)
-- [🙏 Acknowledgements](#acknowledgements)
-- [❓ FAQ (OPTIONAL)](#faq)
-- [📝 License](#license)
+- Its just a portfolio to show my abilities
 
-<!-- PROJECT DESCRIPTION -->
+## Built with
 
-# 📖 [Blog] <a name="about-project"></a>
+- HTML
+- Git
+- CSS
+- JavaScript
+- Next.js
+- React
+- Framer Motion
+- Tailwind Css
+- pnpm
+- command-line tools such as git.
 
-> This is a sample project to practice Next.JS (13.4.4).
+## How to install
 
-## 🛠 Built With <a name="built-with"></a>
+Starting out with next-portfolio is easy, git clone the project and open from vscode. Run pnpm install and then pnpm run dev. That's it.
 
-- **React.JS**
-- **Next.JS**
-- **Mongo DB**
-- **Next Auth**
+## Authors
 
-### Tech Stack <a name="tech-stack"></a>
+Reach out!
 
-> This Project is only build with frontend technology.
+👤 **Muhammad Fahad Umer**
 
-<details>
-  <summary>Client</summary>
-  <ul>
-    <li><a href="https://reactjs.org/">React.js</a></li>
-  </ul>
-</details>
-
-<!-- Features -->
-
-### Key Features <a name="key-features"></a>
-
-- **MUI**
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- LIVE DEMO -->
-
-## 🚀 Live Demo <a name="live-demo"></a>
-
-- [Live Demo Link](https://MFahadUmer.github.io/social-media)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- GETTING STARTED -->
-
-## 💻 Getting Started <a name="getting-started"></a>
-
-To get a local copy up and running, follow these steps.
-
-### Prerequisites
-
-In order to run this project you need:
-
-```sh
- Node
- NPM
- Yarn
-```
-
-### Setup
-
-Clone this repository to your desired folder:
-
-```sh
-  git clone https://github.com/MFahadUmer/next-blog.git
-  cd next-blog
-```
-
-### Install
-
-Install this project with:
-
-```sh
-  yarn
-```
-
-### Usage
-
-To run the project, execute the following command:
-
-```sh
-  yarn dev
-```
-
-<!--
-### Run tests
-
-To run tests, run the following command:
-
-
-Example command:
-
-```sh
-  bin/rails test test/models/article_test.rb
-```
---->
-
-<!--
-### Deployment
-
-You can deploy this project using:
-
-
-Example:
-
-```sh
-
-```
- -->
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- AUTHORS -->
-
-## 👥 Authors <a name="authors"></a>
-
-👤 **Author**
-
-- LinkedIn: [Muhammad Fahad](https://www.linkedin.com/in/muhammad-fahad-umer)
+- LinkedIn: [Muhammad Fahad](https://www.linkedin.com/in/muhammad-fahad-umer/)
 - Github: [@MFahadUmer](https://github.com/MFahadUmer)
 - Twitter: [@engfahadumer](https://twitter.com/@engfahadumer)
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- FUTURE FEATURES -->
-<!--
-
-## 🔭 Future Features <a name="future-features"></a>
-
-> Describe 1 - 3 features you will add to the project.
-
-- [ ] **[new_feature_1]**
-- [ ] **[new_feature_2]**
-- [ ] **[new_feature_3]**
-
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
--->
-
-<!-- CONTRIBUTING -->
-
-## 🤝 Contributing <a name="contributing"></a>
+## Contributing 🤝
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](https://github.com/MFahadUmer/todolist/issues).
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+## Acknowledgments
 
-<!-- SUPPORT -->
+- Thanks to Microverse for its support!
 
-## ⭐️ Show your support <a name="support"></a>
+## Show your support
 
-If you like this project please give it a star for motivation.
+Give a ⭐️ if you like this project!
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+## License
 
-<!-- ACKNOWLEDGEMENTS -->
-<!--
-## 🙏 Acknowledgments <a name="acknowledgements"></a>
+[![License](http://img.shields.io/:license-mit-blue.svg?style=flat-square)](http://badges.mit-license.org)
 
-[//]: # (> Give credit to everyone who inspired your codebase.)
-
-I would like to thank ZAINKEEPSCODE whose tutorial was used.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
--->
-
-<!-- FAQ (optional) -->
-<!--
-## ❓ FAQ (OPTIONAL) <a name="faq"></a>
-
-> Add at least 2 questions new developers would ask when they decide to use your project.
-
-- **[Question_1]**
-
-  - [Answer_1]
-
-- **[Question_2]**
-
-  - [Answer_2]
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
--->
-
-<!-- LICENSE -->
-
-## 📝 License <a name="license"></a>
-
-This project is [MIT](./LICENSE) licensed.
-
-_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+- **[MIT license](http://opensource.org/licenses/mit-license.php)**
