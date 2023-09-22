@@ -15,12 +15,13 @@ export default function Contact() {
       initial={{ opacity: 0 }}
       whileInView={{ opacity: 1 }}
       transition={{ duration: 1 }}
+      viewport={{ once: true }}
     >
       <SectionHeading>Contact me</SectionHeading>
       <p className="text-gray-700 -mt-6">
         Please contact me directly at{' '}
         <a className="underline" href="mailto:eng.fahadumer@gmail.com">
-          eng.fahadumer@hmail.com
+          eng.fahadumer@gmail.com
         </a>
         &nbsp; or through this form.
       </p>
