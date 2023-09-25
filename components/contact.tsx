@@ -1,10 +1,11 @@
 'use client';
 import React from 'react';
 import { motion } from 'framer-motion';
+import toast from 'react-hot-toast';
 import SectionHeading from '@/components/section-heading';
 import { useSectionInView } from '@/lib/hooks';
 import { sendEmail } from '@/actions/sendEmails';
-import SubmitBtn from './submit-btn';
+import SubmitBtn from '@/components/submit-btn';
 
 export default function Contact() {
   const ref = useSectionInView('Contact', 0.5);
@@ -32,10 +33,10 @@ export default function Contact() {
         action={async (formData) => {
           const { data, error } = await sendEmail(formData);
           if (error) {
-            alert(error);
+            toast.error(error);
             return;
           } else {
-            alert('Email sent successfully');
+            toast.success('Email sent successfully');
           }
         }}
       >
