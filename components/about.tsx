@@ -23,18 +23,18 @@ export default function About() {
         <span className="font-medium">
           Govt. College University, Faisalabad
         </span>
-        . I graduated from <span className="font-medium">Microverse</span>{' '}
-        Microverse, a remote school that emphasizes project-based learning and
-        pair programming. <br />
+        . I graduated from <span className="font-medium">Microverse</span> , a
+        remote school that emphasizes project-based learning and pair
+        programming. <br />
         During my nearly 1-year tenure as a remote{' '}
         <span className="font-medium">junior software engineer</span> at{' '}
         <span className="font-medium">Intagleo Systems, Pakistan</span> , I got
-        a chance to work with a client based in the
+        a chance to work with a client based in the{' '}
         <span className="font-medium">USA</span> , specifically with{' '}
         <span className="font-medium">Pynwheel</span>, a property-related
         business. This experience helped me understand how to create solutions
         for clients with different needs. <br />
-        I&apos;m passionately involved in my side project, which revolves around
+        I&apos;m passionately involved in my side project, which revolves around{' '}
         <span className="font-medium">mobile specifications</span>. I can use my
         skills and knowledge to create a useful tech resource for checking
         mobile specs, deals, and trading phones. <br />
