@@ -35,28 +35,36 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: 'Graduated bootcamp',
-    location: 'Miami, FL',
+    title: 'Graduated Bachelors of Software Engineering',
+    location: 'Faisalabad, PK',
     description:
-      'I graduated after 6 months of studying. I immediately found a job as a front-end developer.',
+      '4 year College degree in Software Engineering, where I learned the basics of Software Development Techniques and models',
     icon: React.createElement(LuGraduationCap),
-    date: '2019',
+    date: '2012-2016',
   },
   {
-    title: 'Front-End Developer',
-    location: 'Orlando, FL',
+    title: 'Teacher',
+    location: 'Punjab, PK',
     description:
-      'I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.',
+      'I was a teacher in the Punjab Education Department for over 4 years. My classroom was welcoming, friendly, and engaging for all students.',
     icon: React.createElement(CgWorkAlt),
-    date: '2019 - 2021',
+    date: '2017-2021',
   },
   {
-    title: 'Full-Stack Developer',
-    location: 'Houston, TX',
+    title: 'Graduated Bootcamp',
+    location: 'Microverse, Remote',
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
+      'I graduated after 1 year of studying. I immediately found a job as a junior software engineer developer.',
+    icon: React.createElement(LuGraduationCap),
+    date: '2021 - 2022',
+  },
+  {
+    title: 'Junior Software Engineer',
+    location: 'Remote, PK',
+    description:
+      'I worked here for almost one year as a full stack web developer with the back-end(ROR) and front end with react.js. My role here was to write the APIs for multiple applications(Web, Mobile) and also integrate them into the web application(React) of Pynwheel.',
     icon: React.createElement(FaReact),
-    date: '2021 - present',
+    date: 'Jan-2022 - Nov-2022',
   },
 ] as const;
 
