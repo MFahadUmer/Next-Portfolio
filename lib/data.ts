@@ -1,10 +1,15 @@
 import React from 'react';
 import { CgWorkAlt } from 'react-icons/cg';
-import { FaReact } from 'react-icons/fa';
+import { SiRubyonrails } from 'react-icons/si';
 import { LuGraduationCap } from 'react-icons/lu';
-import corpcommentImg from '@/public/corpcomment.png';
-import rmtdevImg from '@/public/rmtdev.png';
-import wordanalyticsImg from '@/public/wordanalytics.png';
+import reactdashboard from '@/public/react-dashboard.png';
+import pynwheel from '@/public/pynwheel.png';
+import socialMedia from '@/public/social-media.png';
+import newsWeek from '@/public/newsWeek.png';
+import nextDashboard from '@/public/nextDashboard.png';
+import nextCars from '@/public/next-cars.png';
+import nextBlog from '@/public/next-blog.png';
+import smashingMagazine from '@/public/smashing-magazine.png';
 
 export const links = [
   {
@@ -43,7 +48,7 @@ export const experiencesData = [
     date: '2012-2016',
   },
   {
-    title: 'Teacher',
+    title: 'Primary School Teacher',
     location: 'Punjab, PK',
     description:
       'I was a teacher in the Punjab Education Department for over 4 years. My classroom was welcoming, friendly, and engaging for all students.',
@@ -60,35 +65,86 @@ export const experiencesData = [
   },
   {
     title: 'Junior Software Engineer',
-    location: 'Remote, PK',
+    location: 'Intagleo Systems, PK',
     description:
       'I worked here for almost one year as a full stack web developer with the back-end(ROR) and front end with react.js. My role here was to write the APIs for multiple applications(Web, Mobile) and also integrate them into the web application(React) of Pynwheel.',
-    icon: React.createElement(FaReact),
-    date: 'Jan-2022 - Nov-2022',
+    icon: React.createElement(SiRubyonrails),
+    date: '2022 - 2022',
   },
 ] as const;
 
 export const projectsData = [
   {
-    title: 'CorpComment',
+    title: 'Pynwheel (Private)',
     description:
-      'I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.',
-    tags: ['React', 'Next.js', 'MongoDB', 'Tailwind', 'Prisma'],
-    imageUrl: corpcommentImg,
+      'Pynwheel applications modernize sales and leasing offices in apartment and condominium communities across the USA. Sales and leasing consultants use Pynwheel to help prospective residents narrow down the available units that meet their needs, making the sales process more efficient - and fun! Pynwheel applications include an interactive property map, floor plan gallery, media gallery, neighborhood map, and a digital brochure builder. Pynwheel is available on large format touchscreens, desktop touchscreens, tablets, as an iPad & iPhone app, and as a website extension',
+    tags: [
+      'Ruby on Rails',
+      'React',
+      'Redux',
+      'Material UI',
+      'JQuery',
+      'Postgresql',
+    ],
+    imageUrl: pynwheel,
   },
   {
-    title: 'rmtDev',
+    title: 'Next Blog (Portfolio Project)',
     description:
-      'Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.',
-    tags: ['React', 'TypeScript', 'Next.js', 'Tailwind', 'Redux'],
-    imageUrl: rmtdevImg,
+      'This is a sample project to practice Next.js. I used Next.js, CSS, and Next Auth to build this project.',
+    tags: ['Next.js', 'React', 'CSS', 'Next Auth', 'Redux', 'Mongoose'],
+    imageUrl: nextBlog,
   },
   {
-    title: 'Word Analytics',
+    title: 'Next Car (Portfolio Project)',
     description:
-      'A public web app for quick analytics on text. It shows word count, character count and social media post limits.',
-    tags: ['React', 'Next.js', 'SQL', 'Tailwind', 'Framer'],
-    imageUrl: wordanalyticsImg,
+      'This is a Next App (App Router) where I tried multiple things like Headless UI, Next.js, Tailwind CSS and much much more.',
+    tags: ['React', 'Next.js', 'Headless UI', 'Tailwind CSS', 'Redux'],
+    imageUrl: nextCars,
+  },
+  {
+    title: 'React Dashboard (Portfolio Project)',
+    description:
+      'This is a basic react dashboard where I tried multiple things like ApexCharts, Framer motion, MUi and much much more.',
+    tags: ['React', 'Material UI', 'Framer Motion', 'ApexCharts', 'Redux'],
+    imageUrl: reactdashboard,
+  },
+  {
+    title: 'Social Media Clone (Portfolio Project)',
+    description:
+      'This is a basic social media clone app where I tried multiple things like MUI with theming and much much more.',
+    tags: ['React', 'Tailwind', 'Framer Motion'],
+    imageUrl: socialMedia,
+  },
+
+  {
+    title: 'Next Dashboard (Portfolio Project)',
+    description:
+      'This is a basic Next dashboard (Pages Router) where I tried multiple things like ApexCharts, Framer motion, MUi and much much more.',
+    tags: [
+      'React',
+      'Next.js',
+      'Material UI',
+      'Styled Components',
+      'ApexCharts',
+      'Redux',
+    ],
+    imageUrl: nextDashboard,
+  },
+
+  {
+    title: 'NewsWeek Clone (Portfolio Project)',
+    description:
+      'This is a project based on a working news website . In this project I used all the previous knowledge like flex box grid float position and I also applied some new knowledge like bootstrap for this project. This website is responsive as it is build in bootstrap.',
+    tags: ['HTML', 'CSS', 'Bootstrap'],
+    imageUrl: newsWeek,
+  },
+  {
+    title: 'Smashing Magazine Clone (Portfolio Project)',
+    description:
+      'this is a clone of the Smashing Magazine landing page in grayscale',
+    tags: ['HTML', 'CSS'],
+    imageUrl: smashingMagazine,
   },
 ] as const;
 

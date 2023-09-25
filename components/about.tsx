@@ -16,29 +16,37 @@ export default function About() {
     >
       <SectionHeading>About Me</SectionHeading>
       <p className="mb-3">
-        After graduating with a degree in{' '}
-        <span className="font-medium">Accounting</span>, I decided to pursue my
-        passion for programming. I enrolled in a coding bootcamp and learned{' '}
-        <span className="font-medium">full-stack web development</span>.{' '}
-        <span className="italic">My favorite part of programming</span> is the
-        problem-solving aspect. I <span className="underline">love</span> the
-        feeling of finally figuring out a solution to a problem. My core stack
-        is{' '}
+        Hello, I&apos;m Muhammad Fahad, a{' '}
+        <span className="font-medium">Software Developer</span> with a sound
+        foundation in both education and practical experience. I proudly hold a
+        degree in <span className="font-medium">Software Engineering</span> from{' '}
         <span className="font-medium">
-          React, Next.js, Node.js, and MongoDB
+          Govt. College University, Faisalabad
         </span>
-        . I am also familiar with TypeScript and Prisma. I am always looking to
-        learn new technologies. I am currently looking for a{' '}
-        <span className="font-medium">full-time position</span> as a software
-        developer.
+        . I graduated from <span className="font-medium">Microverse</span>{' '}
+        Microverse, a remote school that emphasizes project-based learning and
+        pair programming. <br />
+        During my nearly 1-year tenure as a remote{' '}
+        <span className="font-medium">junior software engineer</span> at{' '}
+        <span className="font-medium">Intagleo Systems, Pakistan</span> , I got
+        a chance to work with a client based in the
+        <span className="font-medium">USA</span> , specifically with{' '}
+        <span className="font-medium">Pynwheel</span>, a property-related
+        business. This experience helped me understand how to create solutions
+        for clients with different needs. <br />
+        I&apos;m passionately involved in my side project, which revolves around
+        <span className="font-medium">mobile specifications</span>. I can use my
+        skills and knowledge to create a useful tech resource for checking
+        mobile specs, deals, and trading phones. <br />
+        I&apos;m on the lookout for dynamic roles where I can further harness my
+        software development skills alongside innovative teams. If you&apos;re
+        seeking a developer-driven to make a tangible impact, I&apos;m your
+        person. How about we explore a potential collaboration?
       </p>
       <p>
         <span className="italic">When I&apos;m not coding</span>, I enjoy
         playing video games, watching movies, and playing with my dog. I also
-        enjoy <span className="font-medium">learning new things</span>. I am
-        currently learning about{' '}
-        <span className="font-medium">history and philosophy</span>. I&apos;m
-        also learning how to play the guitar.
+        enjoy <span className="font-medium">learning new things</span>.
       </p>
     </motion.section>
   );
