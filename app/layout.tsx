@@ -5,7 +5,6 @@ import { Inter } from 'next/font/google';
 import { Toaster } from 'react-hot-toast';
 import ActiveSectionContextProvider from '@/context/active-section-context';
 import Footer from '@/components/footer';
-import ReactGA from 'react-ga4';
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -20,7 +19,6 @@ export default function RootLayout({
 }: {
   children: React.ReactNode;
 }) {
-  ReactGA.initialize(String(process.env.GOOGLE_ANALYTICS));
 
   return (
     <html lang="en" className="!scroll-smooth">
