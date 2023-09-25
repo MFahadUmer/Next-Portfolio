@@ -7,8 +7,10 @@ import { BsDownload } from 'react-icons/bs';
 import { BsLinkedin } from 'react-icons/bs';
 import { FaGithubSquare } from 'react-icons/fa';
 import { useSectionInView } from '@/lib/hooks';
+import { useActiveSectionContext } from '@/context/active-section-context';
 
 export default function Intro() {
+  const { setActiveSection, setTimeOfLastClick } = useActiveSectionContext();
   const ref = useSectionInView('Home', 0.5);
   return (
     <section
@@ -75,13 +77,17 @@ export default function Intro() {
         <Link
           href="#contact"
           className="group bg-gray-900 text-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 hover:bg-gray-950 active:scale-105 transition"
+          onClick={() => {
+            setActiveSection('Contact');
+            setTimeOfLastClick(Date.now());
+          }}
         >
           Contact me here
           <BsArrowRight className="opacity-70 group-hover:translate-x-2 transition" />
         </Link>
         <a
           href="/Muhammad-Fahad-Resume.pdf"
-          className="cursor-pointer group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110  active:scale-105 transition border border-black/10"
+          className="cursor-pointer group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110  active:scale-105 transition borderBlack"
           download
         >
           Download Resume
@@ -89,13 +95,13 @@ export default function Intro() {
         </a>
         <a
           href="https://www.linkedin.com/in/muhammad-fahad-umer/"
-          className="bg-white p-4 text-gray-700 flex items-center gap-2 rounded-full outline-none focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950  active:scale-105 transition border border-black/10"
+          className="bg-white p-4 text-gray-700 flex items-center gap-2 rounded-full outline-none focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950  active:scale-105 transition borderBlack"
         >
           <BsLinkedin />
         </a>
         <a
           href="https://github.com/MFahadUmer"
-          className="bg-white p-4 text-gray-700 flex items-center gap-2 rounded-full outline-none focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950  active:scale-105 transition border border-black/10"
+          className="bg-white p-4 text-gray-700 flex items-center gap-2 rounded-full outline-none focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950  active:scale-105 transition border borderBlack"
         >
           <FaGithubSquare />
         </a>
