@@ -1,11 +1,10 @@
-import { sendEmail } from '@/actions/sendEmails';
-('use server');
+'use server';
 import React from 'react';
 import { validateString } from '@/lib/utils';
 import { Resend } from 'resend';
 import { getErrorMessage } from '@/lib/utils';
 const resend = new Resend(process.env.RESEND_API_KEY);
-import { ContactFormEmail } from '@/components/ContactFormEmail';
+import ContactFormEmail from '@/email/contact-form-email';
 
 export const sendEmail = async (formData: FormData) => {
   const senderEmail = formData.get('senderEmail');
@@ -17,8 +16,9 @@ export const sendEmail = async (formData: FormData) => {
   if (!validateString(message, 5000)) {
     return { error: 'Invalid Message' };
   }
+  let data;
   try {
-    await resend.emails.send({
+    data = await resend.emails.send({
       from: 'Contact from <onboarding@resend.dev>',
       to: 'eng.fahadumer@gmail.com',
       subject: 'Message from portfolio',
@@ -33,4 +33,5 @@ export const sendEmail = async (formData: FormData) => {
       error: getErrorMessage(error),
     };
   }
+  return { data };
 };
