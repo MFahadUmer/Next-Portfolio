@@ -1,5 +1,5 @@
 'use client';
-import React from 'react';
+import React, { useState } from 'react';
 import { motion } from 'framer-motion';
 import toast from 'react-hot-toast';
 import SectionHeading from '@/components/section-heading';
@@ -9,6 +9,13 @@ import SubmitBtn from '@/components/submit-btn';
 
 export default function Contact() {
   const ref = useSectionInView('Contact', 0.5);
+  const [email, setEmail] = useState('');
+  const [message, setMessage] = useState('');
+
+  const clearForm = () => {
+    setEmail('');
+    setMessage('');
+  };
 
   return (
     <motion.section
@@ -37,7 +44,7 @@ export default function Contact() {
             return;
           } else {
             toast.success('Email sent successfully');
-            
+            clearForm();
           }
         }}
       >
@@ -45,12 +52,16 @@ export default function Contact() {
           className="h-14 rounded-lg border borderBlack p-4"
           name="senderEmail"
           type="email"
+          value={email}
+          onChange={(e) => setEmail(e.target.value)}
           placeholder="Your Email"
           required
           maxLength={500}
         />
         <textarea
           placeholder="Your message"
+          value={message}
+          onChange={(e) => setMessage(e.target.value)}
           className="h-52 my-3 border rounded-lg borderBlack p-4"
           required
           name="message"
